@@ -1,0 +1,130 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#nav a {
+  margin-right: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+#nav a.button {
+  padding: 5px 5px;
+  background: #4a7eee;
+}
+
+#Google {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  text-align: center;
+}
+
+#Arama-kutusu {
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+}
+
+#search, #mic, #key {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search {
+  left: 10px;
+}
+
+#mic {
+  right: 10px;
+}
+
+#key {
+  right: 50px;
+}
+
+#searchbar {
+  width: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+  border: 2px solid #c4c4c4;
+}
+
+#searchbar:hover {
+  box-shadow: 0 0 20px #c4c4c9;
+}
+
+#buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #dfdbdb;
+  border: 2px solid transparent;
+}
+
+.button:hover {
+  box-shadow: 0 0 5px 1px black;
+  border: 2px solid #eee;
+}
+
+.footer-content {
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  margin-left: 10px;
+  border-bottom: 1px solid #999595;
+  background: #ece8e8;
+}
+
+.footer-content1 {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  word-spacing: 40px;
+}
+
+.footer-content1 .ft {
+  float: right;
+  word-spacing: 50px;
+}/*# sourceMappingURL=main.css.map */
